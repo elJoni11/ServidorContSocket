@@ -7,16 +7,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ 
  * Servidor TCP Socket para ContSocket Ltd. - Prototipo 2
- * 
- * Cambios respecto al Prototipo 1:
- * - Puerto cambiado a 9090 (según especificación)
- * - Persistencia en memoria con HashMap
- * - Protocolo de comandos implementado
- */
+ 
+ **/
 public class ContSocketServer {
     // Puerto según especificación del Prototipo 2 [cambio: antes era 9000]
-    private static final int PORT = 9090;
+    private static final int PORT = 9000;
     
     // Persistencia en memoria (HashMap) - Prototipo 2
     // Almacena capacidades disponibles por fecha
