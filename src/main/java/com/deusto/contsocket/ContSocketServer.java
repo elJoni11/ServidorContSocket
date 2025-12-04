@@ -20,6 +20,12 @@ public class ContSocketServer {
     private static Map<LocalDate, Integer> capacidades = new HashMap<>();
     
     public static void main(String[] args) {
+    	System.out.println("═══════════════════════════════════════════════════════════");
+		System.out.println("   					SERVIDOR CONTSOCKET");
+		System.out.println("   		Sistema de Gestión de Reciclaje de Envases");
+		System.out.println("   			Equipo DS-03 - Universidad de Deusto");
+		System.out.println("═══════════════════════════════════════════════════════════");
+		
         // Inicializar datos en memoria
         inicializarCapacidades();
         
@@ -28,7 +34,6 @@ public class ContSocketServer {
             ServerSocket serverSocket = new ServerSocket(PORT)
         ) {
             System.out.println("═══════════════════════════════════════════════");
-            System.out.println("✅ Servidor ContSocket Ltd. - Prototipo 2");
             System.out.println("📡 Puerto: " + PORT);
             System.out.println("💾 Persistencia: En memoria (HashMap)");
             System.out.println("═══════════════════════════════════════════════");
