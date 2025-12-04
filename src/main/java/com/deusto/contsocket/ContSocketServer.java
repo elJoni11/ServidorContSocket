@@ -21,9 +21,9 @@ public class ContSocketServer {
     
     public static void main(String[] args) {
     	System.out.println("═══════════════════════════════════════════════════════════");
-		System.out.println("   					SERVIDOR CONTSOCKET");
-		System.out.println("   		Sistema de Gestión de Reciclaje de Envases");
-		System.out.println("   			Equipo DS-03 - Universidad de Deusto");
+		System.out.println("   		SERVIDOR CONTSOCKET");
+		System.out.println("Sistema de Gestión de Reciclaje de Envases");
+		System.out.println("  Equipo DS-03 - Universidad de Deusto");
 		System.out.println("═══════════════════════════════════════════════════════════");
 		
         // Inicializar datos en memoria
